@@ -1,0 +1,80 @@
+
+INSERT INTO `category` (`id`, `name`) VALUES
+(6, 'Woman Wraps & Scarves'),
+(7, 'Hijab'),
+(8, 'Sacs femmes'),
+(9, 'Poignets'),
+(10, 'African Dress');
+
+INSERT INTO `product` (`name`, `description`, `price`, `stock`, `created-at`, `image`, `category`) VALUES
+('Head Wrap Styles', 'Head Wrap Styles That Can Turn Any Bad Hair Day Into A Day Of Glam', 78.98, 100, '2020-04-16 00:00:00', 'w1.png', 6),
+('African kente head wraps', 'Head Wrap Styles That Can Turn Any Bad Hair Day Into A Day Of Glam', 78.98, 100, '2020-04-16 00:00:00', 'w2.png', 6),
+('afro wraps', 'Head Wrap Styles That Can Turn Any Bad Hair Day Into A Day Of Glam', 78.98, 100, '2020-04-16 00:00:00', 'w3.png', 6),
+('Ankara Collections wraps', 'Head Wrap Styles That Can Turn Any Bad Hair Day Into A Day Of Glam', 78.98, 100, '2020-04-16 00:00:00', 'w4.png', 6),
+('beauty and hair', 'Head Wrap Styles That Can Turn Any Bad Hair Day Into A Day Of Glam', 78.98, 100, '2020-04-16 00:00:00', 'w5.png', 6),
+('Multicolor Scarf', '100% Real Natural Silk Scarf for Women', 38.98, 100, '2020-04-16 00:00:00', 'w6.png', 6),
+('Natural Silk Scarf', '100% Real Natural Silk Scarf for Women - Aqua Blue, 175x55cm', 38.98, 100, '2020-04-16 00:00:00', 'w7.png', 6),
+('Warm Square Scarves', 'Warm Square Scarves for Women - A, China', 38.98, 100, '2020-04-16 00:00:00', 'w8.png', 6),
+('Square Small Neck Scarfs', 'US $1_85 _Square Silk Scarf Women Fashion Print Small Neck Scarfs Office Lady Hair Band Foulard Hand Kerchief Female Bandana Shawl 2020_Women', 38.98, 100, '2020-04-16 00:00:00', 'w9.png', 6),
+('Long Shawl Hijab', 'Basic Bubble Chiffon Long Shawl Hijab Scarf', 38.98, 100, '2020-04-16 00:00:00', 'w10.png', 6);
+
+
+INSERT INTO `product` (`name`, `description`, `price`, `stock`, `created-at`, `image`, `category`) VALUES
+('Robe Muslim flour', 'Robe Muslim flour', 48.98, 100, '2020-04-16 00:00:00', 'h1.png', 7),
+('Robe Muslim ', 'Robe Muslim flour Color grey', 48.98, 100, '2020-04-16 00:00:00', 'h2.png', 7),
+('Muslim Robe', 'Muslim Robe color bordo', 48.98, 100, '2020-04-16 00:00:00', 'h3.png', 7),
+('BellanBlue women fashion ', 'BellanBlue women fashion styli', 48.98, 100, '2020-04-16 00:00:00', 'h4.png', 7),
+('BellanPink women fashion', 'BellanPink women fashion Styli', 48.98, 100, '2020-04-16 00:00:00', 'h5.png', 7),
+('BellanWight women fashion', 'BellanPink women fashion Modest & chik', 48.98, 100, '2020-04-16 00:00:00', 'h6.png', 7),
+('Neva Style Muslim Dress', 'Neva Style Muslim Dress Origin Turk', 48.98, 100, '2020-04-16 00:00:00', 'h7.png', 7),
+('Mark Kombin Muslim Dress', 'Mark Kombin Muslim Dress Origin Turk', 48.98, 100, '2020-04-16 00:00:00', 'h8.png', 7),
+('Tesettür İstanbul Muslim Dress', 'Tesettür İstanbul Muslim Dress', 48.98, 100, '2020-04-16 00:00:00', 'h9.png', 7),
+('Tesettür Kombin Muslim Dress', 'Tesettür Kombin Muslim Dress Origin Turk', 48.98, 100, '2020-04-16 00:00:00', 'h10.png', 7);
+
+
+
+INSERT INTO `product` (`name`, `description`, `price`, `stock`, `created-at`, `image`, `category`) VALUES
+('Sac 1', 'Robe Muslim flour', 48.98, 100, '2020-04-16 00:00:00', 's1.png', 8),
+('Sac 2', 'Alexander Mcqueen Spring 2020 Fashion', 48.98, 100, '2020-04-16 00:00:00', 's2.png', 8),
+('Sac 3', 'Hairball women luxury shoulder handbags', 48.98, 100, '2020-04-16 00:00:00', 's3.png', 8),
+('Sac 4', 'Numéro Un Mini - Terre de Sienne - Polène', 48.98, 100, '2020-04-16 00:00:00', 's4.png', 8),
+('Sac 5', 'Sacs de Designers pour Femme _ Simons Canada', 48.98, 100, '2020-04-16 00:00:00', 's5.png', 8),
+('Sac 6', 'Sac Rouge', 48.98, 100, '2020-04-16 00:00:00', 's6.png', 8),
+('Sac 7', 'sac noir', 48.98, 100, '2020-04-16 00:00:00', 's7.png', 8),
+('Sac 8', 'Women bags', 48.98, 100, '2020-04-16 00:00:00', 's8.png', 8);
+
+
+INSERT INTO `product` (`name`, `description`, `price`, `stock`, `created-at`, `image`, `category`) VALUES
+('Montre argenté', 'Le tourbillon, nouveau terrain de jeu de l horlogerie féminine', 48.98, 100, '2020-04-16 00:00:00', 't1.png', 9),
+('Gold Dial Wristwatch', 'Leather Casual Gold Dial Wristwatch', 48.98, 100, '2020-04-16 00:00:00', 't2.png', 9),
+('Magnet Quartz Wristwatch', 'Magnet Buckle Simple Strap Quartz Wristwatch Woman 2020 Summer', 48.98, 100, '2020-04-16 00:00:00', 't3.png', 9),
+('Montre de Luxe Femme', 'Montre de Luxe Femme', 48.98, 100, '2020-04-16 00:00:00', 't4.png', 9),
+('MONTRE EMIR WATCH ', 'MONTRE EMIR WATCH _CREATIVE_', 48.98, 100, '2020-04-16 00:00:00', 't5.png', 9),
+('Olivia Burton Under the Sea Collection 🌊✨', 'Olivia Burton Under the Sea Collection 🌊✨', 48.98, 100, '2020-04-16 00:00:00', 't6.png', 9),
+('SK Fashion Luxury 2019 Female Clock relogio', 'SK Fashion Luxury Brand Women Quartz Watch Creative Thin Ladies Wrist Watch For Montre Femme 2019 Female Clock relogio feminino', 48.98, 100, '2020-04-16 00:00:00', 't7.png', 9),
+('Watch Montre Femme Reloj Mujer', '2019 Relogio Feminino Watch Women Casual Quartz Leather Band New Strap Watch Analog Wrist Watch Montre Femme Reloj Mujer', 48.98, 100, '2020-04-16 00:00:00', 't8.png', 9),
+('Clock relogio feminino montre femme', 'Luxury Luminous Women Watches Starry Sky Magnetic Female Wristwatch Waterproof Rhinestone Clock relogio feminino montre femme _ Aalamey Shop', 48.98, 100, '2020-04-16 00:00:00', 't9.png', 9),
+('Personality Woman Watch', 'With Calendar Personality Woman Watch', 48.98, 100, '2020-04-16 00:00:00', 't10.png', 9),
+('hexnut bracelet', 'string & hexnut bracelet', 48.98, 100, '2020-04-16 00:00:00', 'n1.png', 9),
+('Bracelet Laurier - Or Rose', 'Bracelet Laurier - Or Rose', 48.98, 100, '2020-04-16 00:00:00', 'n2.png', 9),
+('Beaded Word Bracelets', 'DIY Adjustable Beaded Word Bracelets', 48.98, 100, '2020-04-16 00:00:00', 'n3.png', 9),
+('Green Glass Wire Wrapped Bracelet', 'Green Glass Wire Wrapped Bracelet With Swarovski Crystals', 48.98, 100, '2020-04-16 00:00:00', 'n4.png', 9),
+('Heart Forever Love Bracelet', 'Heart Forever Love Charm Bracelet - Buy Today 15% Off - Bizzoby', 48.98, 100, '2020-04-16 00:00:00', 'n5.png', 9),
+('Seed Bead Bracelets ', 'How to Make Super Trendy Seed Bead Bracelets in Minutes', 48.98, 100, '2020-04-16 00:00:00', 'n6.png', 9),
+('Knotted Round Shape Bracelet', 'Knotted Round Shape Bracelet Set', 48.98, 100, '2020-04-16 00:00:00', 'n7.png', 9),
+('Spring Fling 2020 Jewelry', 'Spring Fling 2020 30% Off Jewelry Sale _ Spilled Glitter', 48.98, 100, '2020-04-16 00:00:00', 'n8.png', 9),
+('Multi Beaded Bracelet', 'The Best Part Light Green Multi Beaded Bracelet Set', 48.98, 100, '2020-04-16 00:00:00', 'n9.png', 9);
+
+
+
+INSERT INTO `product` (`name`, `description`, `price`, `stock`, `created-at`, `image`, `category`) VALUES
+('African Wear', 'Latest Ankara Styles by Roselyn @roselynfelli - African Wear', 48.98, 100, '2020-04-16 00:00:00', 'a1.png', 10),
+('African Wear', 'Latest Ankara Styles by Roselyn @roselynfelli - African Wear', 48.98, 100, '2020-04-16 00:00:00', 'a2.png', 10),
+('African clothing', 'African clothing and Ankara dresses for women all over the world', 48.98, 100, '2020-04-16 00:00:00', 'a3.png', 10),
+('Ankara Collections', 'Ankara Collections Ankara Style', 48.98, 100, '2020-04-16 00:00:00', 'a4.png', 10),
+('Wax African Dress', 'Wax African Dress', 48.98, 100, '2020-04-16 00:00:00', 'a5.png', 10),
+('Wax African Dress', 'Wax African Dress Green Color', 48.98, 100, '2020-04-16 00:00:00', 'a6.png', 10),
+('Wax African Dress', 'Wax African Dress Color Blue', 48.98, 100, '2020-04-16 00:00:00', 'a7.png', 10),
+('Nigerian Women Gele Styles', 'Nigerian Women Gele Styles', 48.98, 100, '2020-04-16 00:00:00', 'a8.png', 10),
+('African Wear 2020', ' Latest Ankara Styles and Design (2020)', 48.98, 100, '2020-04-16 00:00:00', 'a9.png', 10),
+('Winter Party Dress Outfits New Arrivals', 'Winter Party Dress Outfits New Arrivals', 48.98, 100, '2020-04-16 00:00:00', 'a10.png', 10);

@@ -1,0 +1,6 @@
+DB_NAME : jstore_ecommerce
+
+ARTICLES OU PRODUCT(id, name, description, price, category, image )
+CATEGORY(id, name )
+ORDERS(id, id_customers, id_product, quantity, price, created-at)
+CUSTOMERS(id, sexe, firstname, lastname, tel, email)
